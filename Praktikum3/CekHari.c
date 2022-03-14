@@ -12,30 +12,35 @@ int main()
     int Hari;
 
     //Algoritma
-    printf("Masukkan Hari dalam angka 1-7:");
+    printf("Masukkan Hari dalam nomor 1-7:");
     scanf("%d", &Hari);
-    switch (Hari) {
-        case 1:
-            printf("Senin");
-            break;
-        case 2:
-            printf("Selasa");
-            break;
-        case 3:
-            printf("Rabu");
-            break;
-        case 4:
-            printf("Kamis");
-            break;
-        case 5:
-            printf("Jum`at");
-            break;
-        case 6:
-            printf("Sabtu");
-            break;
-        case 7:
-            printf("Minggu");
-            break;
+    if ((1 <= Hari) && (Hari <= 7)) {
+                switch (Hari) {
+            case 1:
+                printf("Senin");
+                break;
+            case 2:
+                printf("Selasa");
+                break;
+            case 3:
+                printf("Rabu");
+                break;
+            case 4:
+                printf("Kamis");
+                break;
+            case 5:
+                printf("Jum`at");
+                break;
+            case 6:
+                printf("Sabtu");
+                break;
+            case 7:
+                printf("Minggu");
+                break;
+        }
+    }
+    else {
+        printf("Masukkan nomor hari tidak tepat");
     }
     return 0;
 }
