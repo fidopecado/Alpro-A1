@@ -1,2 +1,1 @@
-TUGASSS SORTINGG
-Bubble, Selection, Counting, dan Insertion Sort
+Tugas Bubble, Selection, Counting, dan Insertion Sort
