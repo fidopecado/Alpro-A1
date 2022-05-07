@@ -29,17 +29,17 @@ void bubbleSort(int arr[], int n)
 
 int main()
 {
-    // Kamus
-    int i;
+    	// Kamus
+    	int i;
 	int arr[] = { 99, 23, 25, 69, 100, 11, 6 };
 	int n = sizeof(arr) / sizeof(arr[0]);
 
 	// Algoritma
 	printf("Array sebelum disortir : \n");
-    for (i = 0; i < n; i++) {
-        printf("%d  ", arr[i]);
-    }
-    printf("\n");
+    	for (i = 0; i < n; i++) {
+        	printf("%d  ", arr[i]);
+    	}
+    	printf("\n");
 	bubbleSort(arr, n);
 	printf("Array setelah disortir : \n");
 	for (i = 0; i < n; i++)
